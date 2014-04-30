@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf8">
+  <title><%= @title + ' | Reminder' %></title>
+  <style>
+    a:visited {
+      color: yellow;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <hgroup>
+      <h1><a href="/">Reminder</a></h1>
+    </hgroup>
+  </header>
+  <div id="main">
+    <%=yield %>
+  </div>
+  <footer>
+    <p><small>An app for me</a>.</small></p>
+  </body>
+  </html>
